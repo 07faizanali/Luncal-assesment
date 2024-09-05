@@ -40,22 +40,23 @@
   .addButton {
     width: 131.32px;
     height: 46px;
-    top: 481px;
-    margin-right: 200px;
-    border-radius: 104px ;
+    border-radius: 104px;
     background: rgba(255, 255, 255, 0.03);
-    box-shadow: 0px 3.26px 3.26px 0px rgba(255, 255, 255, 0.15) inset;
-    box-shadow: 0px 0px 48.91px 0px rgba(255, 255, 255, 0.05) inset;
-    box-shadow: 9px 10px 7.1px 0px rgba(0, 0, 0, 0.4);
-    box-shadow: -0.5px -0.5px 6.9px 0px rgba(255, 255, 255, 0.25);
-    rotate: -180 deg;
-    font-family: 'Plus Jakarta Sans',sans-serif;
+    /* Combine all shadows into one box-shadow property */
+    box-shadow:
+      0px 3.26px 3.26px rgba(255, 255, 255, 0.15) inset,
+      0px 0px 48.91px rgba(255, 255, 255, 0.05) inset,
+      9px 10px 7.1px rgba(0, 0, 0, 0.4),
+      -0.5px -0.5px 6.9px rgba(255, 255, 255, 0.25);
+    transform: rotate(-360deg); /* Fix rotate */
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 12px;
     font-weight: 800;
-    line-height: 6.29px;
+    line-height: 1.5em;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-
+    cursor: pointer;
+    margin-right: 200px; /* Keep this or adjust based on your layout */
   }
   
   .galleryImages {
@@ -66,6 +67,7 @@
   .image {
     margin-top: 30px;
     margin-left: 35px;
+    cursor: pointer;
   }
   
   .icon{
@@ -74,6 +76,7 @@
     position: absolute;
     top: 390px;
     gap: 105px;
+    cursor: pointer;
   }
 
   .squicon{
@@ -81,6 +84,7 @@
     height: auto;
     position: absolute;
     top: 526px;
+    cursor: pointer;
   }
 
 
@@ -98,7 +102,17 @@
   }
 
 
-
-
-
+.left{
+  margin-left: 505px;
+  position: absolute;
+  top: 370px;
+  cursor: pointer;
+  }
   
+
+  .right{
+    margin-left: 580px;
+    position: absolute;
+    top: 370px;
+    cursor: pointer;
+    }

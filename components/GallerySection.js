@@ -13,6 +13,8 @@ const GallerySection = () => {
         <span>Gallery</span>
         <button className={styles.addButton}>+ Add Image</button>
       </div>
+      <img src='./assests/images/left.png' alt='image' className={styles.left}/>
+      <img src='./assests/images/right.png' alt='image' className={styles.right} />
       <div className={styles.galleryImages}>
         {/* Placeholder images */}
         <div className={styles.image}>
