@@ -60,24 +60,19 @@
   
   .galleryImages {
     display: flex;
-    gap: 8px;
+  
   }
   
   .image {
-    width: 179px;
-    height: 179px;
-    top: 55px;
-    left: 39px;
-    background-color: #555;
-    border-radius: 24px;
-    flex: 1;
+    margin-top: 30px;
+    margin-left: 35px;
   }
   
   .icon{
     width: 24px;
     height: 24px;
     position: absolute;
-    top: 40px;
+    top: 390px;
     gap: 105px;
   }
 
@@ -85,7 +80,7 @@
     width: 24px;
     height: auto;
     position: absolute;
-    top: 166px;
+    top: 526px;
   }
 
 
@@ -101,3 +96,9 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.33);
 
   }
+
+
+
+
+
+  

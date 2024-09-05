@@ -15,9 +15,15 @@ const GallerySection = () => {
       </div>
       <div className={styles.galleryImages}>
         {/* Placeholder images */}
-        <div className={styles.image}></div>
-        <div className={styles.image}></div>
-        <div className={styles.image}></div>
+        <div className={styles.image}>
+          <img src='./assests/images/background.png' alt='image'/>
+        </div>
+        <div className={styles.image}>
+        <img src='./assests/images/background.png' alt='image'/>
+        </div>
+        <div className={styles.image}>
+        <img src='./assests/images/background.png' alt='image'/>
+        </div>
       </div>
     </div>
     <div className={styles.rectangle2}></div>
